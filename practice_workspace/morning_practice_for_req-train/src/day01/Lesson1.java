@@ -21,7 +21,17 @@ public class Lesson1 {
 
 	public static void main(String[] args) {
 		/*ここから記入*/
-
+		System.out.println("出力します。");
+		//aに12を代入する
+		byte a = 12;
+		double b = 1.6;
+		String c = "こんにちは";
+		boolean d = true;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		
 	}
 
 }

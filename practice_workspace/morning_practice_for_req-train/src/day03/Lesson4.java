@@ -26,13 +26,18 @@ input number? >>13
 13
 */
 package day03;
-
+import java.io.BufferedReader;
 import java.io.IOException;
-
+import java.io.InputStreamReader;
 public class Lesson4 {
 
 	public static void main(String[] args) throws IOException {
 		/*ここから記入*/
+		String str = reader.readLine();
+		int num = Integer.parseInt(str);
+		
+		if()
+		
 
 	}
 
