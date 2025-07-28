@@ -32,13 +32,24 @@ input number?[1-10] >>7
 */
 package day04;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Lesson7 {
 
 	public static void main(String[] args) throws IOException {
 		/*ここから記入*/
-
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("数当てゲームです。1-10の整数を入力して下さい");
+		int num = 0;
+		while(num != 7) {
+			num = Integer.parseInt(reader.readLine());
+			if (1 > num && num < 10) {
+			}
+				continue;
+			}
+			
 		/*ここまで記入*/
 
 		System.out.println("\nゲームを終了します");
